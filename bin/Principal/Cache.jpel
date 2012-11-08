@@ -1,0 +1,7 @@
+include "util.jpel" as MATH 
+module CACHE
+{
+  MAX = MATH.pow(2,12);
+  SIZE = MATH.div(CACHE.MAX,2);
+   
+}

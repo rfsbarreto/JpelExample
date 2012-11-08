@@ -1,0 +1,4 @@
+div (x,y) = x / y;
+
+native pow (base,expoente) = 
+  jpel.language.operators.ExpressionPow;
